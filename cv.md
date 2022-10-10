@@ -61,7 +61,7 @@ Worked as Project Manager at a [small website development company](https://leadm
 2. In 2017, about a month to learn how to work in the programming language "__C__" intensive. Couldn't finish because the training company itself started having problems. 
 3. Studied Assembler, Visual Basic, Delphi and others at сollege.
 ***
-### ___Education___
+### __Education__
 * 2006-2010 Gomel Road Construction College | Area of specialization: Electronic Computing Devices | _Specialty_: __electronic technician__
 * 2015 - Completed software testing courses
 * 2017 - Learn how to work with language "__C__" about month
