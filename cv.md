@@ -1,10 +1,10 @@
 # Mikhail Malitski
 ***
 ### Contacts
-__Location:__ Warsaw, Poland
-__Phone:__ +48 505 714 420
-__Email:__: Malitskiy.Mikhail@gmail.com
-__GitHub__: [MalitskiMikhail](https://github.com/MalitskiMikhail)
+* __Location:__ Warsaw, Poland
+* __Phone:__ +48 505 714 420
+* __Email:__: Malitskiy.Mikhail@gmail.com
+* __GitHub__: [MalitskiMikhail](https://github.com/MalitskiMikhail)
 ***
 ### ___About Me___
 I got my first computer when I was 6 years old. My whole life has been about computers since I was a kid. My father was an engineer and I studied to be an electronics technician. 
@@ -67,9 +67,10 @@ Worked as Project Manager at a [small website development company](https://leadm
 * 2017 - Learn how to work with language "__C__" about month
 * 2022 - Started JS/FE Course EN 2022Q3 at RS School
 ***
-#### __English__
+### __English__
 * I started learning English in high school and continued in college.
 * When I was 28 years old, I started learning English with a tutor. I studied English for 8 months and reached A2-B1 level. 
 * Then I studied with a new tutor for about 6 months in 2021-2022.
 * Then I attended "Cambridge School of English" courses for 4 months and reached B2 level.
+* I have British Council Poland certificate B2 level. 
 * Now I have a good habit - I watch movies and YouTube in English. Also, I read articles on the Internet in English and try to practice English when I can.
