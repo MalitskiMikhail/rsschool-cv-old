@@ -17,10 +17,6 @@ body {
 a{
     text-decoration: none;
 }
-li :hover{
-    opacity: 60%;
-    transition: 0.3s;
-}
 
 .header-wrap{
     display: block;
@@ -71,4 +67,19 @@ li :hover{
     padding: 10px;
 }
 
+.footer {
+    background-color: #34cfcf;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Body End */
+
+    /* Hovers*/
+
+li :hover{
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+/* Hovers End*/
