@@ -2,76 +2,113 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <title>My CV</title>
     </head>
     <body>
+        <header class="header-wrap"><span class="CV">Curriculum Vitae</span>
+            <nav class="header-wpar-nav">
+                <ul class="header-wrap-nav-ul">
+                    <li class="header-wrap-nav-ul-li"><a href="#contacts">Contacts</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#About_Me">About Me</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#Skills">Skills</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#Experience">Experience</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#Education">Education</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#English">English</a></li>
+                    <li class="header-wrap-nav-ul-li"><a href="#Code_Example">Code Example</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-wrap">
         <h1>Mikhail Malitski</h1>
-<h2>Contacts</h2>
-<ul>
-<li>Phone: +48 505 714 420</li>
-<li>Location: Warsaw, Poland</li>
-<li>Email: Malitskiy.Mikhail@gmail.com</li>
-<li>GitHub: <a href="https://github.com/MalitskiMikhail">Malitski Mikhail</a></li>
-</ul>
-<h2>About Me</h2>
-<p>I got my first computer when I was 6 years old. My whole life has been about computers since I was a kid. My father was an engineer and I studied to be an electronics technician.
+<h2><a id="contacts">Contacts</a></h2>
+    <ul>
+        <li>Phone: +48 505 714 420</li>
+        <li>Location: Warsaw, Poland</li>
+        <li>Email: Malitskiy.Mikhail@gmail.com</li>
+        <li>GitHub: <a href="https://github.com/MalitskiMikhail">Malitski Mikhail</a></li>
+    </ul>
+<h2><a id="About_Me">About Me</a></h2>
+    <p>I got my first computer when I was 6 years old. My whole life has been about computers since I was a kid. My father was an engineer and I studied to be an electronics technician.
 
 In 6th grade I was given a CD with programming at my own request, but then, unfortunately, I could not start programming. After that I had a few more attempts in my adult life and again unsuccessfully. Now, when many years have passed, I am sure that I am ready to make my wish come true.
 
 Now I have enough life experience, as well as experience in IT: Community/Project Management for about 6 years. I am still young and full of energy and now I'm ready to become a developer and fulfill my old dream. For starters, Frontend, and then - who knows what it will end up!
-</p>
-<h2>Skills</h2>
-<ul>
-    <li>CSS + adaptive(basic)</li>
-    <li>Wordpress</li>
-    <li>JavaScript\PHP\SQL\SEO - (basic)</li>
-    <li>Git\GitHub - (basic)</li>
-    <li>Visual Studio Code</li>
-    <li>Assembler, Visual Basic, Delphi and others at сollege</li>
-    <li>Figma, Photoshop - (basic)</li>
-    <li>Jira\Confluence\Trello</li>
-    <li>MS Office, Outlook, Google Drive</li>
-    <li>Project Management\Community Management</li>
-    <li>Agile\Scrum</li>
-    <li>Zendesk</li>
+    </p>
+<h2><a id="Skills">Skills</a></h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS + adaptive(basic)</li>
+        <li>Wordpress</li>
+        <li>JavaScript\PHP\SQL\SEO - (basic)</li>
+        <li>Git\GitHub - (basic)</li>
+        <li>Visual Studio Code</li>
+        <li>Assembler, Visual Basic, Delphi and others at сollege</li>
+        <li>Figma, Photoshop - (basic)</li>
+        <li>Jira\Confluence\Trello</li>
+        <li>MS Office, Outlook, Google Drive</li>
+        <li>Project Management\Community Management</li>
+        <li>Agile\Scrum</li>
+        <li>Zendesk</li>
 </ul>
 
-<h2>Experience</h2>
-<h3>Frontend</h3>
+<h2 id="Code_Example">Code example</h2>
+    <div class="code-wpar">
+    <code>
+        (function(){
+            const header = document.querySelector ('.header');
+            window.onscroll = () => {
+                if (window.pageYOffset > 50) {
+                    header.classList.add('header_active');
+                } else{
+                    header.classList.remove('header_active');
+                }
+            }
+        }());
+</code></div>
 
-<p>I started learning HTML\CSS\JavaScript\PHP in 2019 by myself studying popular sites like htmlbook.ru, www.w3schools.com, etc. Developed my own news site on Wordpress, sometimes finalizing the visual and internal parts of the site. The site lasted almost a year, after which I abandoned it. Completely managed to pass and repeat one of the video courses and make up the site by the <a href="https://bit.ly/3T73jEA">example</a>. Also made with 10 small sites in pure HTML\CSS for training.
+<h3><a href="https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/CV(markdown)/CV(cross-check).md">
+Project examples</a></h3>
+
+<h2><a id="Experience">Experience</a></h2>
+    <h3>Frontend</h3>
+
+        <p>I started learning HTML\CSS\JavaScript\PHP in 2019 by myself studying popular sites like htmlbook.ru, www.w3schools.com, etc.
+Developed my own news site on Wordpress, sometimes finalizing the visual and internal parts of the site.
+The site lasted almost a year, after which I abandoned it.
+Completely managed to pass and repeat one of the video courses and make up the site by the <a href="https://bit.ly/3T73jEA">example</a>.
+Also made with 10 small sites in pure HTML\CSS for training.
 Worked a bit with PHP\SQL\OpenServer as I had to finalize my site on Wordpress.
-
 Worked as Project Manager at a small website development <a href="https://leadme.agency">company</a> for about six months. Mainly the sites were web-sites as a landing page. Had to interact with programmers, designers and other specialists, so I understand the process of creating such sites.
-</p>
-<h3>Other skills</h3>
-<ul>
-    <li>Completed software testing courses in 2015.</li>
-    <li>In 2017, about a month to learn how to work in the programming language "C" intensive. Couldn't finish because the training company itself started having problems.</li>
-    <li>Studied Assembler, Visual Basic, Delphi and others at сollege.</li>
-</ul>
-<h2>Education</h2>
-<ul>
-    <li>2006-2010 Gomel Road Construction College | Area of specialization: Electronic Computing Devices | Specialty: electronic technician</li>
-    <li>2015 - Completed software testing courses</li>
-    <li>2017 - Learn how to work with language "C" about month</li>
-    <li>2022 - Started JS/FE Course EN 2022Q3 at RS School</li>
-</ul>
-<h2>English</h2>
-<ul>
-    <li>I started learning English in high school and continued in college.</li>
-    <li>When I was 28 years old, I started learning English with a tutor. I studied English for 8 months and reached A2-B1 level.</li>
-    <li>Then I studied with a new tutor for about 6 months in 2021-2022.</li>
-    <li>Then I attended "Cambridge School of English" courses for 4 months and reached B2 level.</li>
-    <li>I have British Council Poland certificate B2 level.</li>
-    <li>Now I have a good habit - I watch movies and YouTube in English. Also, I read articles on the Internet in English and try to practice English when I can.</li>
-</ul>
-        <footer>
+        </p>
+    <h3>Other skills</h3>
+    <ul>
+        <li>Completed software testing courses in 2015.</li>
+        <li>In 2017, about a month to learn how to work in the programming language "C" intensive. Couldn't finish because the training company itself started having problems.</li>
+        <li>Studied Assembler, Visual Basic, Delphi and others at сollege.</li>
+    </ul>
+    <h2><a id="Education">Education</a></h2>
+    <ul>
+        <li>2006-2010 Gomel Road Construction College | Area of specialization: Electronic Computing Devices | Specialty: electronic technician</li>
+        <li>2015 - Completed software testing courses</li>
+        <li>2017 - Learn how to work with language "C" about month</li>
+        <li>2022 - Started JS/FE Course EN 2022Q3 at RS School</li>
+    </ul>
+    <h2><a id="English">English</a></h2>
+    <ul>
+        <li>I started learning English in high school and continued in college.</li>
+        <li>When I was 28 years old, I started learning English with a tutor. I studied English for 8 months and reached A2-B1 level.</li>
+        <li>Then I studied with a new tutor for about 6 months in 2021-2022.</li>
+        <li>Then I attended "Cambridge School of English" courses for 4 months and reached B2 level.</li>
+        <li>I have British Council Poland certificate B2 level.</li>
+        <li>Now I have a good habit - I watch movies and YouTube in English. Also, I read articles on the Internet in English and try to practice English when I can.</li>
+    </ul>
+</main>
+        <footer class="footer">
+            <a class="logo" href="https://rs.school/js-en/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool" width="100"></a>
             <a href="https://github.com/MalitskiMikhail">My GitHub</a>
-            <br>
             <time datetime="2022-10-17 22:25">17 october</time>
-            <br>
-            <a href="https://rs.school/js-en/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool" style="width:20%"></a>
         </footer>
     </body>
 </html>
