@@ -53,6 +53,11 @@ a{
     margin-right: 5px;
 }
 
+.photo{
+    width: 120px;
+    opacity: 90%;
+}
+
 .main-wrap {
     margin: 10px;
     padding: 10px;
